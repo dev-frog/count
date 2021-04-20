@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
+
+
+:root{
+    --fsg: 135px; /* Time and Greetings */
+    --fsm: 75px; /* Date */
+    --fss: 25px; /* Greetings and Weather widget */
+    --fses: 16px; /* Links List */
+
+    /* Light theme  */
+    --accent: #4b8ec4; /* Hover color */
+    --bg: #f5f5f5; /* Background color */
+    --sbg: #e4e6e6; /* Cards color */
+    --fg: #3a3a3a; /* Foreground color */
+    --sfg: #3a3a3a; /* Secondary Foreground color */
+    --cyp: #7a8488;
+    --cypp: #d600ff;
+    --black: #202020;
+
+    /* cyberpunk */
+    --yellow-color: #fcee09; 
+    --red-color: #ff003c;
+    --black-color: #050a0e;
+    --blue-color: #00f0ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tomorrow, sans-serif;
+    transition: 0.2s ease-in-out;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg);
+    background-image: var(--imgcol), var(--imgbg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+#themeButton {
+    position: absolute;
+    margin: 2em 2em 0 0;
+    right: 0;
+    top: 0;
+    color: var(--fg);
+    border: none;
+    cursor: pointer;
+    background-color: #00000000;
+  }
+  
+#themeButton__icon {
+    width: 25px;
+    height: 25px;
+}
+
+#inputarea {
+    position: absolute;
+    margin: 2em 2em 0 2em;
+    left: 0;
+    top: 0;
+    color: var(--fg);
+    border: none;
+    cursor: pointer;
+    background-color: #00000000;
+}
+
+#timer{
+    font-size: var(--fsg);
+}
+
+.Break{
+    font-size: var(--fsm);
+    color: var(--bg);
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black);
+    clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
+}
