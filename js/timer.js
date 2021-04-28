@@ -19,7 +19,7 @@ function tick(){
     timeDisplay.innerHTML = messages;
 
     let break_name = document.getElementById("brack_Name").value;
-    document.getElementById("Break").innerHTML = break_name + " Break "
+    document.getElementById("Break").innerHTML = break_name + "  "
 
 
     if (secondRemaining === 0){
