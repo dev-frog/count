@@ -1,0 +1,39 @@
+/* font url */
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Oswald:wght@200;600;700&family=Supermercado+One&family=Zen+Kurenaido&display=swap');
+
+/* color */
+:root{
+    --bg: '#2E3440';
+    --bgg: '#3B4252';
+    --bggg: '#434C5E';
+    --bgggg: '#4C566A';
+
+    /* light */
+    --lg: '#ECEFF4';
+    --lgg: '#E5E9F0';
+    --lggg: '#D8DEE9';
+
+    /* frost */
+    --fg: '#8FBCBB';
+    --fgg: '#88C0D0';
+    --fggg: '#81A1C1';
+    --fgggg: '#5E81AC';
+
+    /* Aurora */
+    --ag: '#BF616A';
+    --agg: '#D08770';
+    --aggg: '#EBCB8B';
+    --agggg: '#A3BE8C';
+    --aggggg: '#B48EAD';
+
+}
+
+/* 
+
+font-family: 'Comforter', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Supermercado One', cursive;
+font-family: 'Zen Kurenaido', sans-serif; 
+
+
+*/
